@@ -1,0 +1,109 @@
+# ─────────────────────────────────────────────
+#  JunksCleaner .gitignore
+# ─────────────────────────────────────────────
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+
+# PyInstaller / Nuitka build output
+*.spec
+*.exe
+*.onefile-build/
+output/
+
+# Logs — runtime only, not for repo
+logs/
+*.log
+*.log.*
+
+# Config with user-specific values
+# (keep default_config.json, ignore user overrides)
+config/user_config.json
+config/user_settings.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+.editorconfig
+
+# pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checking
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Jupyter Notebooks (if ever used)
+.ipynb_checkpoints/
+
+# Temp files created during development
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Windows thumbnail cache
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Node (if any frontend tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Secrets — never commit these
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+
+.vscode
+fix_setup.py
