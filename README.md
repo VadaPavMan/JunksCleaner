@@ -57,7 +57,7 @@ Built with a **functionality-first philosophy** — every feature is fully worki
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/JunksCleaner.git
+git clone https://github.com/VadaPavMan/JunksCleaner.git
 cd JunksCleaner
 ```
 
@@ -156,10 +156,9 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before
 ## Development Setup
 
 ```bash
-git clone https://github.com/yourusername/JunksCleaner.git
+git clone https://github.com/VadaPavMan/JunksCleaner.git
 cd JunksCleaner
 pip install -r requirements.txt
-python fix_setup.py
 python main.py
 ```
 
@@ -167,14 +166,8 @@ To run with verbose logging, set `log_level` to `DEBUG` in `config/default_confi
 
 ---
 
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
 ## Author
 
-**Harsh** — [@yourusername](https://github.com/yourusername)
+**Harsh Rajbhar** — [@VadaPavMan](https://github.com/VadaPavMan)
 
 > Built as a learning project to sharpen Python skills while building something genuinely useful.
